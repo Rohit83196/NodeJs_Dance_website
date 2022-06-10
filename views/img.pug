@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dance website</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li style="padding-right: 17px ;"><img class="img" src="../static/dance1.png" alt=""></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/contact">Contact_Us</a></li>
+            <li><a href="/img">IMG</a></li>
+        </ul>
+    </nav>
+    <section id="introSection">
+        <div>welcome to our dance academy website </div>
+        <div class="small"> DANCE: live^Laugh^Enjoy</div>
+    </section>
+    <div style="width: 800px; margin:auto; opacity: 0.8;">
+        <form action="/img" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label class="label1" for="img">img_upload</label>
+                <div class="group">
+                    <input class="input1" id="img" type="file" name="img" placeholder="upload image">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="group">
+                    <input class="input1" id="btn_img" type="submit" value="Submit_img">
+                </div>
+            </div>
+        </form>
+    </div>
+    <section id="sponsorsSection">
+        <h2>section for footer</h2>
+        <div id="footer_box"><img class="footer_img" src="../static/whattsapp.png" alt=""><img class="footer_img" src="../static/instagram.png" alt=""><img class="footer_img" src="../static/twitter.png" alt=""><img class="footer_img" src="../static/telegram.png" alt=""></div>
+    </section>
+    <script src="../static/index.js"></script>
+</body>
+
+</html>

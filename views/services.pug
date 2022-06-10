@@ -1,0 +1,34 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title dance website
+    link(rel='stylesheet', href='../static/style.css')
+  body
+    nav#navbar
+      ul
+        li(style='padding-right: 17px ;')
+          img.img(src='../static/dance1.png', alt='')
+        li
+          a(href='/') Home
+        li
+          a(href='/about') About
+        li
+          a(href='/services') Services
+        li
+          a(href='/contact') Contact_Us
+    section#introSection
+      div welcome to our dance academy website 
+      .small  DANCE: live^Laugh^Enjoy
+    h1
+      | our services here
+    section#sponsorsSection
+      h2 section for footer
+      #footer_box
+        img.footer_img(src='../static/whattsapp.png', alt='')
+        img.footer_img(src='../static/instagram.png', alt='')
+        img.footer_img(src='../static/twitter.png', alt='')
+        img.footer_img(src='../static/telegram.png', alt='')
+    script(src='../static/index.js')
